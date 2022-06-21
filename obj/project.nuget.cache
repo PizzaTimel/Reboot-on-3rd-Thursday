@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7/L7j643ys0FMkGjftoikYQAM7wDzmyKY3fySrfHkHTcQqT1ivYMpKmColJCGFTr/VVZUZ5lep0NBw7JBdGCmg==",
+  "dgSpecHash": "cRYX9VpMKk1ipDYDOM3rsURGqWnsg4r6SG6TcJhol9OGev93Vr2EurNVmlw1Z9YUk4M9yUt1B+JxaZNyj0Fbtw==",
   "success": true,
-  "projectFilePath": "/home/haenk/dotnet6/dotnet6.csproj",
+  "projectFilePath": "C:\\Users\\lange\\Documents\\VS-Projekte\\dotnet6-test\\dotnet6.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

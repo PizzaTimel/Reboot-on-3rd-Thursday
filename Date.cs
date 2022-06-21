@@ -1,10 +1,12 @@
-class Thursday
+namespace dotnet6
 {
-    //DateTime Today = new DateTime();
-    //Console.WriteLine(Today);
-    
-    /*private bool Checkdate()
+    class Thursday
     {
-
-    }*/
+        public static bool Checkdate()
+        {
+            DateTime Today = new DateTime();
+            Console.WriteLine(Today.DayOfWeek);
+            return false;
+        }
+    }
 }

@@ -1,8 +1,12 @@
-class Program
+namespace dotnet6
 {
-    static void Main()
+    class Program
     {
-        Console.WriteLine("Test");
+        static void Main()
+        {
+            Console.WriteLine("Test");
+            Thursday.Checkdate();
+        }
+        
     }
-    
 }

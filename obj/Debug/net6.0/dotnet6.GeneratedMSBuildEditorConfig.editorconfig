@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotnet6
-build_property.ProjectDir = C:\Users\lange\Documents\VS-Projekte\dotnet6-test\
+build_property.ProjectDir = c:\Users\lange\Documents\VS-Projekte\dotnet6-test\

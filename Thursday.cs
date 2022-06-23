@@ -15,8 +15,7 @@ namespace dotnet6
             ThursdayInTwoWeeks  = FirstDayOfMonth.AddDays(DaysToAdd);
 
             Console.WriteLine("3rd Thursday in this Month is: " + ThursdayInTwoWeeks.ToShortDateString());
-
-            //if(Today.ToShortDateString() == Today.ToShortDateString())
+            
             if(Today.ToShortDateString() == ThursdayInTwoWeeks.ToShortDateString())
             {
                 return true;

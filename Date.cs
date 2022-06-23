@@ -5,18 +5,19 @@ namespace dotnet6
         public static bool Checkdate()
         {
             //Locate first Thursday of Month - add 2 weeks
+            int         DaysToAdd           = new int(); 
             DateTime    Today               = System.DateTime.Now;
             DateTime    FirstDayOfMonth     = new DateTime(System.DateTime.Now.Year, System.DateTime.Now.Month, 1);
-            int         Difference          = new int();      
             DateTime    ThursdayInTwoWeeks  = new DateTime();
+
             
-            Difference = 14 + (4 - ((int)FirstDayOfMonth.DayOfWeek));
-            ThursdayInTwoWeeks = FirstDayOfMonth.AddDays(Difference);            
+            DaysToAdd           = 14 + (4 - ((int)FirstDayOfMonth.DayOfWeek));//4 represents Thursday
+            ThursdayInTwoWeeks  = FirstDayOfMonth.AddDays(DaysToAdd);
 
-            Console.WriteLine("First Day of Month was : " + ((int)FirstDayOfMonth.DayOfWeek));
-            Console.WriteLine("3rd Thursday in this Month is: " + ThursdayInTwoWeeks);
+            Console.WriteLine("3rd Thursday in this Month is: " + ThursdayInTwoWeeks.ToShortDateString());
 
-            if(Today == ThursdayInTwoWeeks)
+            if(Today.ToShortDateString() == Today.ToShortDateString())
+            //if(Today.ToShortDateString() == ThursdayInTwoWeeks.ToShortDateString())
             {
                 return true;
             }

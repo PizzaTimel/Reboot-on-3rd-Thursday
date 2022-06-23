@@ -13,4 +13,4 @@ namespace dotnet6
         
     }
 }
-// dotnet publish --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true
+// dotnet publish --runtime win-x64 --configuration Release -p:PublishSingleFile=true -p:PublishTrimmed=true --self-contained true \bin\Release\net6.0\win-x64\publish

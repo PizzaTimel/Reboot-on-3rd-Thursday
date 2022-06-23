@@ -7,8 +7,11 @@ namespace dotnet6
         {
             if (Thursday.Checkdate() == true)
             {
-                Process.Start("shutdown","/f /r /t 0");                
+                Process.Start("shutdown","/f /r /t 0");
+                Environment.Exit(1);                
             }
+
+            Environment.Exit(0);                
         }
         
     }

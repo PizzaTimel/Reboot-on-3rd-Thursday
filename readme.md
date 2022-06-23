@@ -1,1 +1,1 @@
-Hello, this Programm reboots the Windows Machine on the 3rd Thursday in Month
+this tool reboots the Windows Machine on the 3rd Thursday in Month.

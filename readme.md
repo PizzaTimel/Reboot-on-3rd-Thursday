@@ -1,1 +1,1 @@
-Hello, this is a test
+Hello, this Programm reboots the Windows Machine on the 3rd Thursday in Month
